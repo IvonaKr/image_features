@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg = "image_features" type = "show_cv_frames1.py" name = "show_cv_frames1" />
+
+    <node pkg = "image_features" type = "show_cv_frames2.py" name ="show_cv_frames2" />
+
+</launch>

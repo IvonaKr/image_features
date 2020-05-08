@@ -1,0 +1,8 @@
+<launch>
+
+<include file = "$(find image_features)/launch/show_frames.launch"/>
+
+  <node pkg="image_features" type="obrada_i_prikaz_slike_class.py" name="obrada_slike" output="screen">
+    <param name="dir" value="$(find image_features)/images/"/>
+  </node>
+</launch>
